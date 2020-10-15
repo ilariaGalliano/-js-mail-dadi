@@ -33,16 +33,12 @@ var result = document.getElementById('text');
 *
 */
 
-/*2. Gioco dei dadi
-Generare un numero random da 1  a 6, sia per il giocatore sia per il computer
-Stabilire il vincitore, in base a chi fa il punteggio più alto.*/
-
 //Generare un numero random da 1  a 6, sia per il giocatore sia per il computer
 
 //Giocatore
 var numberUser = parseInt( prompt('inserisci un numero random da 1 a 6 '));
 console.log(numberUser);
-//Utente
+//Computer
 var numberComputer = Math.floor(Math.random() * 6) + 1;;
 console.log(numberComputer);
 
